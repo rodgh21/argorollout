@@ -38,7 +38,7 @@ argo-rollouts:
       # -- Dashboard ingress path type
       pathType: Prefix
       # -- Dashboard ingress extra paths
-      extraPaths: []
+      extraPaths:
         - path: /*
           pathType: Prefix
           backend:
