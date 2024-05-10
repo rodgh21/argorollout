@@ -43,9 +43,9 @@ argo-rollouts:
           pathType: Prefix
           backend:
             service:
-              name: ssl-redirect
+              name: argorollout-dashboard
               port:
-                name: use-annotation
+                name: 3100
 
       # -- Dashboard ingress tls
       tls: []
